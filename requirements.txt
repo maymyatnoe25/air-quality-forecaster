@@ -11,3 +11,4 @@ streamlit
 plotly
 matplotlib
 pytest
+httpx
