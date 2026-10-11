@@ -1,0 +1,186 @@
+{
+  "6": {
+    "n_test": 5453,
+    "test_from": "2026-02-20 13:00:00+08:00",
+    "test_to": "2026-10-05 17:00:00+08:00",
+    "persistence": {
+      "mae": 22.951421236016873,
+      "rmse": 30.154009750824432
+    },
+    "seasonal_naive": {
+      "mae": 15.853365120117365,
+      "rmse": 22.340886097861713
+    },
+    "lightgbm": {
+      "mae": 12.037282586653438,
+      "rmse": 16.969853495491975
+    },
+    "early_trigger": 42,
+    "severe_events_share": 0.2767284063818082,
+    "alert_severe_at_trigger": {
+      "lightgbm": {
+        "precision": 0.5641339869281046,
+        "recall": 0.9151756129887343,
+        "f2": 0.8138849599245639
+      },
+      "persistence": {
+        "precision": 0.32441200324412,
+        "recall": 0.5301524188204109,
+        "f2": 0.4704775346977182
+      }
+    },
+    "alert_sensitive_at_35.4": {
+      "lightgbm": {
+        "precision": 0.8381756756756756,
+        "recall": 0.817193675889328,
+        "f2": 0.8213056144067796
+      },
+      "persistence": {
+        "precision": 0.6254125412541254,
+        "recall": 0.6241765480895916,
+        "f2": 0.6244233557400817
+      }
+    },
+    "interval_coverage_80": 0.7163029525032092,
+    "interval_coverage_80_when_severe": 0.6136514247846255,
+    "avg_interval_width": 33.05862921425495
+  },
+  "12": {
+    "n_test": 5451,
+    "test_from": "2026-02-20 09:00:00+08:00",
+    "test_to": "2026-10-05 11:00:00+08:00",
+    "persistence": {
+      "mae": 27.572738946982206,
+      "rmse": 35.285323263238375
+    },
+    "seasonal_naive": {
+      "mae": 15.85408181984957,
+      "rmse": 22.343297322491146
+    },
+    "lightgbm": {
+      "mae": 13.376065820872801,
+      "rmse": 18.975112700168957
+    },
+    "early_trigger": 42,
+    "severe_events_share": 0.2766464868831407,
+    "alert_severe_at_trigger": {
+      "lightgbm": {
+        "precision": 0.5424489795918367,
+        "recall": 0.8812997347480106,
+        "f2": 0.7834237208205612
+      },
+      "persistence": {
+        "precision": 0.26034063260340634,
+        "recall": 0.42572944297082227,
+        "f2": 0.3777359378677336
+      }
+    },
+    "alert_sensitive_at_35.4": {
+      "lightgbm": {
+        "precision": 0.7921667719519899,
+        "recall": 0.8266315095583389,
+        "f2": 0.8195007188602798
+      },
+      "persistence": {
+        "precision": 0.5267326732673268,
+        "recall": 0.5260382333553065,
+        "f2": 0.5261769748120797
+      }
+    },
+    "interval_coverage_80": 0.7257383966244726,
+    "interval_coverage_80_when_severe": 0.5762599469496021,
+    "avg_interval_width": 34.947777214940245
+  },
+  "24": {
+    "n_test": 5448,
+    "test_from": "2026-02-20 00:00:00+08:00",
+    "test_to": "2026-10-04 23:00:00+08:00",
+    "persistence": {
+      "mae": 15.844713656387665,
+      "rmse": 22.33591679668223
+    },
+    "seasonal_naive": {
+      "mae": 15.844713656387665,
+      "rmse": 22.33591679668223
+    },
+    "lightgbm": {
+      "mae": 13.638376808078833,
+      "rmse": 19.524604720311082
+    },
+    "early_trigger": 38,
+    "severe_events_share": 0.2762481644640235,
+    "alert_severe_at_trigger": {
+      "lightgbm": {
+        "precision": 0.4920462762111352,
+        "recall": 0.9043189368770764,
+        "f2": 0.77452765763715
+      },
+      "persistence": {
+        "precision": 0.46473779385171793,
+        "recall": 0.8538205980066446,
+        "f2": 0.7313602731929425
+      }
+    },
+    "alert_sensitive_at_35.4": {
+      "lightgbm": {
+        "precision": 0.7930142302716688,
+        "recall": 0.8089739359947212,
+        "f2": 0.8057308096740273
+      },
+      "persistence": {
+        "precision": 0.7711920529801325,
+        "recall": 0.7683932695480039,
+        "f2": 0.7689513998943476
+      }
+    },
+    "interval_coverage_80": 0.7468795888399412,
+    "interval_coverage_80_when_severe": 0.5754152823920266,
+    "avg_interval_width": 36.428123864262254
+  },
+  "48": {
+    "n_test": 5441,
+    "test_from": "2026-02-19 07:00:00+08:00",
+    "test_to": "2026-10-03 23:00:00+08:00",
+    "persistence": {
+      "mae": 17.893420327145748,
+      "rmse": 24.894945711923786
+    },
+    "seasonal_naive": {
+      "mae": 17.893420327145748,
+      "rmse": 24.894945711923786
+    },
+    "lightgbm": {
+      "mae": 14.309032107209417,
+      "rmse": 20.47078558345382
+    },
+    "early_trigger": 40,
+    "severe_events_share": 0.2766035655210439,
+    "alert_severe_at_trigger": {
+      "lightgbm": {
+        "precision": 0.5162635529608006,
+        "recall": 0.8225913621262458,
+        "f2": 0.7353290567830839
+      },
+      "persistence": {
+        "precision": 0.4591049382716049,
+        "recall": 0.7906976744186046,
+        "f2": 0.6908964235949837
+      }
+    },
+    "alert_sensitive_at_35.4": {
+      "lightgbm": {
+        "precision": 0.7900271370420624,
+        "recall": 0.768900627269726,
+        "f2": 0.7730350504514073
+      },
+      "persistence": {
+        "precision": 0.7531687791861241,
+        "recall": 0.7454605480356553,
+        "f2": 0.7469895461161836
+      }
+    },
+    "interval_coverage_80": 0.7393861422532623,
+    "interval_coverage_80_when_severe": 0.5541528239202658,
+    "avg_interval_width": 37.5544466822568
+  }
+}

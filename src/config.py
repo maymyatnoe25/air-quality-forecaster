@@ -31,7 +31,11 @@ WX_VARS = ["temperature_2m", "relative_humidity_2m", "precipitation",
            "surface_pressure", "wind_speed_10m", "wind_direction_10m"]
 
 # ---- Folders ----
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve(S).parent.parent
 RAW = ROOT / "data" / "raw"
 PROCESSED = ROOT / "data" / "processed"
 MODELS = ROOT / "models"
+
+HORIZONS = [6, 12, 24, 48]
+ALERT_SENSITIVE = 35.4
+ALERT_SEVERE = 55.4
