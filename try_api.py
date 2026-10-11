@@ -11,7 +11,7 @@ params = {
     "hourly": "pm2_5",        # the dust particle measurement
     "past_days": 3,           # last 3 days
     "forecast_days": 1,
-    "timezone": "GMT",
+    "timezone":  "Asia/Kuala_Lumpur",
 }
 
 # 3. Send the request and get the answer
@@ -26,3 +26,5 @@ df = pd.DataFrame(data["hourly"])
 print(df.head(10))     # first 10 rows
 print(df.shape)        # (rows, columns)
 print(df.describe())   # summary statistics
+df["time"] = pd.to_datetime(df["time"])
+print(df.groupby(df["time"].dt.hour)["pm2_5"].mean().round(1))
