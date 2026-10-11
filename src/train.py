@@ -12,7 +12,7 @@ from sklearn.metrics import (fbeta_score, mean_absolute_error,
 from src import config
 from src.features import build_features
 
-NOT_FEATURES = ["y", "seasonal_naive", "is_glitch"]
+NOT_FEATURES = ["y", "seasonal_naive", "is_glitch", "pm2_5_filled"]
 
 
 def make_dataset(feat, h):
